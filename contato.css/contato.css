@@ -1,0 +1,42 @@
+body {
+font-family: Arial, sans-serif;
+background:id=f4f4f4;
+margin: 0;
+padding: 20px;
+}
+.container {
+    max-width: 600px;
+    margin: auto;
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 1);
+
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+.campo {
+    display: 10px;
+    border-radius: 8px;
+    border:1px solid #ccc ;
+
+}
+textare{
+    min-height: 120px;
+
+}
+button{
+    background:#007bff;
+    color: white;
+    border: none;
+    padding: 12px;
+    border-radius: 8px;
+
+}
+button:hover{
+    background: #0056b3;
+}

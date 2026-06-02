@@ -1,0 +1,40 @@
+body {
+    margin: 0;
+    font-family: Arial,sans-serif;
+
+}
+header{
+    background: #333;
+    padding: 20px;
+
+}
+/*nav com flexbox*/
+nav{
+    display: flex;
+    justify-content: space-between;
+}
+ nav a {
+    color: white;
+    text-decoration: none;
+ }
+ /* cards*/
+  main {
+    display: flex;
+    gap: 20px;
+    padding: 20px;
+  }
+  /* espaço igual*/
+  .card {
+    flex: 1;
+    background: #f4f4f4;
+    padding: 20px;
+    border-radius: 10px;
+
+  }
+  /* rodape*/
+   footer{
+    background: #333;
+    color: white;
+    text-align: center;
+    padding: 20px;
+   }
